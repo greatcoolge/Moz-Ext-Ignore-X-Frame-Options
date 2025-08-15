@@ -18,5 +18,5 @@ jobs:
       - run: web-ext build --source-dir=. --artifacts-dir=artifacts
       - uses: actions/upload-artifact@v4
         with:
-          name: xpi
+          name: Ignore X-Frame-Options Header
           path: artifacts/*.zip
